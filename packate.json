@@ -1,0 +1,35 @@
+{
+    "name": "agg-changes-util",
+    "version": "1.0.0",
+    "description": "Utility to aggregate versioned CHANGES-*.md files.",
+    "main": "agg-changes.js",
+    "type": "module",
+    "scripts": {
+        "agg-changes": "node ./agg-changes.js"
+    },
+    "bin": {
+        "agg-changes": "./agg-changes.js"
+    },
+    "dependencies": {
+        "semver": "^7.5.4",
+        "yargs": "^17.7.2"
+    },
+    "files": [
+        "agg-changes.js",
+        "README.md",
+        "LICENSE"
+    ],
+    "keywords": [
+        "AI",
+        "LLM",
+        "Changes",
+        "version",
+        "context",
+        "changelog", "aggregate", "markdown", "cli", "tool", "utility"
+    ],
+    "author": "Netverse Social, Inc",
+    "license": "MIT License - See LICENSE.md",
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
