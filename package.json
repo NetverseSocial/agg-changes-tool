@@ -1,5 +1,5 @@
 {
-    "name": "agg-changes-util",
+    "name": "agg-changes",
     "version": "1.0.0",
     "description": "Utility to aggregate versioned CHANGES-*.md files.",
     "main": "agg-changes.js",
@@ -25,10 +25,15 @@
         "Changes",
         "version",
         "context",
-        "changelog", "aggregate", "markdown", "cli", "tool", "utility"
+        "changelog", 
+        "aggregate", 
+        "markdown", 
+        "cli", 
+        "tool", 
+        "utility"
     ],
     "author": "Netverse Social, Inc",
-    "license": "MIT License - See LICENSE.md",
+    "license": "MIT",
     "engines": {
         "node": ">=18.0.0"
     }
